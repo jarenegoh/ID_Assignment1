@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 var slider_img = document.querySelector('.slider-img');
-var images = ['Dusty_Bunny.png', 'Kaya_Bunny.jpeg', 'Bella_Bunny.jpg', 'Hazel_Bunny.jpg'];
+var images = ['Dusty_Bunny.png', 'Kaya_Bunny.jpeg', 'Bella_Bunny.jpg', 'Hazel_Bunny.jpg', 'Simba_Bunny.jpeg', 'Minty_Bunny.png'];
 var i = 0;
 
 function prev(){
