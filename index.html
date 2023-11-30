@@ -3,65 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Singapore Doggy Adoption</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;700&display=swap">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Singapore Bunny Adoption</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header class="fixed-top">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">Logo</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#featured-dogs">Featured Dogs</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#adoption-process">Adoption Process</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact-form">Contact Us</a>
-                    </li>
+        <nav class="navbar">
+            <img src="Logo.png" alt="logo">
+            <a class="navbar-brand" href="#">Singapore Bunny Adoption</a>
+            <div class="navbarbuttons">
+                <ul>
+                    <li><a href="#about-us">About Us</a></li>
+                    <li><a href="#recommended-bunnies">Recommended Bunnies</a></li>
+                    <li><a href="#adoption-process">Adoption Process</a></li>
+                    <li><a href="#contact-form">Contact Us</a></li>
                 </ul>
             </div>
         </nav>
     </header>
 
-    <section id="featured-dogs">
+    <div class="content">
+        <img src="background.webp" alt="background" width="100%" height="auto">
+    <section id="about-us">
         <div class="container">
-            <h2 class="text-center">Featured Dogs</h2>
-            <div class="row">
-                <!-- Dog Cards go here -->
-                <div class="col-md-4">
-                    <div class="dog-card">
-                        <img src="Dash_Dog.png" alt="Dog 1" width="300" height="300">
-                        <div class="dog-details">
-                            <h3>Dash</h3>
-                            <p>Age: 9 Months</p>
-                            <p>Breed: Border Collie</p>
-                            <p>Status: Available</p>
-                        </div>
+            <h1 class="text-center">About Us</h1>
+            <h3>About Us</h3>
+            <p>Welcome to Singapore Bunny Adoption, where hearts meet fluffy companions! Our mission is to unite adorable bunnies with loving families across Singapore. At Singapore Bunny Adoption, we believe in the joy, comfort, and endless delight these furry friends bring to our lives.</p>   
+            <h3>Our Story</h3>   
+            <p>Founded with passion and commitment, Singapore Bunny Adoption started as a heartfelt endeavor by a group of dedicated individuals who share a common love for rabbits. Our journey began with the realization that many bunnies in Singapore were in need of caring homes and families seeking the unique companionship these gentle creatures offer.</p>
+            <h3>What Sets Us Apart</h3>
+            <p>At Singapore Bunny Adoption, we distinguish ourselves by placing the well-being of our bunnies at the forefront. Our team is devoted to ensuring a safe and nurturing environment for each rabbit in our care. We work closely with reputable breeders and rescue organizations to bring you a diverse selection of healthy, happy bunnies ready to hop into your hearts.</p>
+            <h3>Our Commitment</h3>
+            <p>Our commitment goes beyond simply matching bunnies with families. We strive to be a valuable resource for bunny care and education. From dietary advice to creating the perfect bunny-friendly environment, our team is here to support you every step of the way.</p> 
+            <h3>Why Choose Us</h3>
+            <p>Expert Guidance: Our team includes experienced bunny enthusiasts who are passionate about sharing their knowledge and expertise.
+                Comprehensive Adoption Process: We ensure a thorough adoption process to guarantee the best possible match between bunny and family.
+                Post-Adoption Support: We offer ongoing support and resources to ensure a smooth transition and a happy life for both bunny and family.
+                Join Us on the Journey</p>
+            <p>Whether you're a seasoned bunny enthusiast or a first-time bunny parent, Singapore Bunny Adoption is here for you. Join us on this wonderful journey of love, companionship, and adorable bunny antics. Explore our adoption options, get to know our furry residents, and discover the joy that bunny companionship can bring to your life.</p>
+            <p>Thank you for considering Singapore Bunny Adoption as your trusted partner in bringing a hop of happiness to your home!</p>
+        </div>
+    </section>
+                
+
+    <section id="recommended-bunnies">
+        <div class="container">
+        <h2 class="text-center">Recommended Bunnies</h2>
+            <div class="bunny-container">
+                <div class="bunny-card">
+                    <a href="bunny1.html"><img src="Dusty_Bunny.png" alt="Bunny 1" width="300" height="300"></a>
+                    <div class="bunny-details">
+                        <h3>Dusty</h3>
+                        <p>Age: 5 Months</p>
+                        <p>Breed: Holland Lop</p>
+                        <p>Status: Available</p>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="dog-card">
-                        <img src="Max_Dog.jpeg" alt="Dog 2" width="300" height="300">
-                        <div class="dog-details">
-                            <h3>Max</h3>
-                            <p>Age: 2 Months</p>
-                            <p>Breed: Corgi</p>
-                            <p>Status: Available</p>
-                        </div>
+                <div class="bunny-card">
+                    <a href="bunny2.html"><img src="Kaya_Bunny.jpeg" alt="Bunny 2" width="300" height="300"></a>
+                    <div class="bunny-details">
+                        <h3>Kaya</h3>
+                        <p>Age: 3 Months</p>
+                        <p>Breed: Mini Lop</p>
+                        <p>Status: Available</p>
                     </div>
                 </div>
-                <p> ------------------------------------------------------------------------------------------------------------------------------------------------------------- </p>
+                <div class="bunny-card">
+                    <a href="bunny3.html"><img src="Bella_Bunny.jpg" alt="Bunny 3" width="300" height="300"></a>
+                    <div class="bunny-details">
+                        <h3>Bella</h3>
+                        <p>Age: 6 Months</p>
+                        <p>Breed: Northland Dwarf</p>
+                        <p>Status: Available</p>
+                    </div>
+                </div>
+                <div class="bunny-card">
+                    <a href="bunny4.html"><img src="Hazel_Bunny.jpg" alt="Bunny 4" width="300" height="300"></a>
+                    <div class="bunny-details">
+                        <h3>Hazel</h3>
+                        <p>Age: 3 Months</p>
+                        <p>Breed: Mini Lop</p>
+                        <p>Status: Available</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
+
+    <div class="container">
+        <h2 class="text-center">Our cute bunnies up-close!</h2>
+        <div class="slider">
+            <div class="img-box">
+               <img src="Dusty_Bunny.png" class="slider-img">
+            </div>
+        
+            <button class="btn" onclick="prev()">Prev</button>
+            <button class="btn" onclick="next()">Next</button>
+        </div>
+    </div>
 
     <section id="adoption-process">
         <div class="container">
@@ -71,33 +115,32 @@
                 <p>Step 3: Show up for your appointment on time</p>
                 
                 <ul>
-                    <li>Please present your ID or show the confirmation email at the SPCA for verification purposes</li>
-                    <li>If the adoption counselling and interactions between the animal goes well (and find that the animal is a good fit for your family), you may adopt the animal on the spot when you visit SPCA; you will need documents showing your address and your passport / FIN. Please note that we do not have any reservation policy and are only able to hold the animal for 3 days after your initial adoption counselling, where our adoption counsellors approve the adoption</li>
-                    <li>If you're adopting a cat, it is compulsory to mesh windows and doors at home, if you stay on the second floor and above</li>
-                    <li>A counsellor might require additional family members to come down or do a premises check - in such cases, conditions must be fulfilled before the adoption</li>
-                    <li>The whole procedure should not take more than an hour</li>
+                    <li>Please present your ID or show the confirmation email at the SBA for verification purposes.</li>
+                    <li>If the adoption counselling and interactions between the animal goes well (and find that the animal is a good fit for your family), you may adopt the animal on the spot when you visit SBA; you will need documents showing your address and your passport / FIN. Please note that we do not have any reservation policy and are only able to hold the animal for 3 days after your initial adoption counselling, where our adoption counsellors approve the adoption.</li>
+                    <li>A counsellor might require additional family members to come down or do a premises check - in such cases, conditions must be fulfilled before the adoption.</li>
+                    <li>The whole procedure should not take more than an hour.</li>
                 </ul>
         </div>
     </section>
 
-    <!-- Contact Form Section -->
     <section id="contact-form">
         <div class="container">
             <h2 class="text-center">Contact Us</h2>
-            <!-- Contact form goes here -->
+            <p>If you have any questions or inquiries, feel free to contact us:</p>
+            <p>Email: info@singaporebunnyadoption.com</p>
+            <p>Phone: +65 1234 5678</p>
         </div>
     </section>
+    </div>  
 
-    <!-- Footer Section -->
+    <script src="script.js"></script>
+
     <footer>
         <div class="container">
-            <!-- Footer content goes here -->
+            <p>&copy; 2023 Singapore Bunny Adoption. All rights reserved.</p>
+            <!-- Add any additional footer content as needed -->
         </div>
     </footer>
 
-    <!-- Include Bootstrap JS and Popper.js -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
