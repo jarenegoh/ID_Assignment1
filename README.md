@@ -59,6 +59,8 @@ Media:
 - The photo Kaya_Bunny was taken from https://breed-rabbits.com/mini-lop/
 - The photo background was taken from https://www.burgesspetcare.com/blog/uncategorised/what-should-i-feed-my-mini-lop-rabbits/
 - The Logo was designed by me.
+- The photo Simba_Bunny was taken from https://www.google.com/url?sa=i&url=https%3A%2F%2Flionheadrabbit.com%2Fabout-lionhead%2Fappearance%2F&psig=AOvVaw3W4GlVwRuOeNBwxWOmWJuZ&ust=1701444127530000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLixn7iD7IIDFQAAAAAdAAAAABAE
+- The photo Minty_Bunny was taken from https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2Fholland-lop-color-chart-holland-lop-rabbit-colors-ohio-holland-lops--553520610452442912%2F&psig=AOvVaw0nbJRjEP1sfrdaqrBajOa7&ust=1701444606874000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCMC665yF7IIDFQAAAAAdAAAAABAP
 
 Acknowledgements:
 - I received inspiration for this project from https://singaporepuppyadoption.com/homepage/
