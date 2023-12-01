@@ -1,6 +1,6 @@
 !! My Project Name: Bunny Adoption Website !!
 
-I have made a website for bunny adoptions, where people can easily find and adopt bunnies. Each bunny has a profile with a picture and details about their personalities, as well as its care requirements and adoption details. My goal is to connect people with these bunnies and give the bunnies a loving and caring home, and through a friendly and easy-to-use interface, users and visitors are able to easily look for what bunny they want which will make the adoption process simple and smooth.
+I have made a website for bunny adoptions, where people can easily find and adopt bunnies. Each bunny has a profile with a picture and details about their personalities, as well as its care requirements and adoption details. My audience are people who are specifically looking to adopt bunnies based off their preferemceMy goal is to connect people with these bunnies and give the bunnies a loving and caring home, and through a friendly and easy-to-use interface, users and visitors are able to easily look for what bunny they want which will make the adoption process simple and smooth.
 
 My website contains 5 parts:
 1. About Us
