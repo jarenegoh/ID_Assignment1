@@ -27,11 +27,19 @@ User Stories:
 
 !! Features !!
 
+Existing features:
 Feature 1: Allows users to know more about the Singapore Bunny Adoption (agency) by entering the site
 Feature 2: Allows users to see a short list of "recommended bunnies" by scrolling through the main page
 Feature 3: Allows users to know what the adoption process is like with the step by step guide under the list of bunnies, as well as the contact info of the agency if they have any enquiries
 Feature 4: Allows users to know more about the bunny by clicking on the image of the bunny
 Feature 5: Gives users close-up pictures of the bunnies by clicking on the "Next" or "Prev" button under the list of recommended bunnies
+
+Features left to implement:
+- Fill out adoption form example
+
+
+!! Technologies Used !!
+- This project uses a javascript slider example from https://github.com/skcals/javascript_image_slider
 
 
 !! Testing !!
